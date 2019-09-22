@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>무슨 꽃일까</title>
+	<style type="text/css">
+		body{
+            background-image:url("노란꽃.jpg");
+                background-repeat:repeat-x;
+            }
+		#b{width: 10px;height: 80px;
+			background: none;transition: all 1s;}
+		#c{width: 10px;height: 80px;
+			background: none;transition: all 1s;}
+		div { text-align: center; }
+	</style>
+</head>
+<body>
+
+	<style type="text/css">
+		#heartu{width: 100px;height: 80px;
+			background: none;transition: all 1s;}
+	</style>
+	<div>
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<p style="text-align: center;">
+		<span style="color: white; font-size: 1.5em">
+	무슨 꽃인지 궁금하다면
+	<br><br>
+	사진을 클릭해주세요!
+	<br><br>
+	</span>
+	</p>
+	<head>
+		<style>
+			@font-face { font-family: 'BBTreeGB'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGB.woff') format('woff'); font-weight: normal; font-style: normal;}
+	    body{background-color: white; font-family: 'BBTreeGB'}
+		</style>
+	</head>
+	</div>
+	<div id="b"></div>
+	<p style="text-align: center;">
+	<img src="하트.gif" id="heart"align="left">
+	<img style="cursor: pointer" src="어느꽃.jpg" id="yeon" width="300">
+	<img src="하트.gif" id="heart"align="right">
+	</p>
+	<div id="c"></div>
+	<div>
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	<img src="하투.gif" id="heartu" height="100">
+	</div>
+	<audio id="hehe">
+		<source src="Angel.wav" type="audio/wav">
+	</audio>
+
+	<script type="text/javascript">
+		yeon.onclick = function(){
+			yeon.src = "아이린꽃.gif";
+			hehe.play();
+			b.style.width = "0px";
+			b.style.height = "0px";
+			b.style.opacity = "0";
+			c.style.width = "0px";
+			c.style.height = "0px";
+			c.style.opacity = "0";
+			mybody.style.background = "url(아이린꽃.gif)";
+			mybody.style.backgroundSize = "200px auto";
+		}
+	</script>
+
+</body>
+</html>
